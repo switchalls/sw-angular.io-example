@@ -29,3 +29,39 @@ Change `npm` output in `angular.json`
 "options": {
     "outputPath": "../../../target/dist",
 ```
+
+## angular.io-example
+
+Cloned `src/main/np-app`
+
+Replaced `src/app` from [angular.io](https://angular.io/start)
+
+Replaced `src/styles.css` from [angular.io](https://angular.io/start)
+
+Changed `name` in `src/package.json`
+
+Replaced all occurrences of `np-app` in `src/angular.json`, eg.
+
+```json
+  "projects": {
+    "np-app": {
+      "projectType": "application",
+      ...
+          "options": {
+            "browserTarget": "np-app:build"
+          },
+```
+
+Changed `title` in `src/index.html`
+
+Added import for `Material Icons` in `src/index.html`, eg.
+
+```html
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+</head>
+```
+
+
