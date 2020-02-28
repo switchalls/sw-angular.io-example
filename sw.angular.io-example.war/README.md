@@ -64,4 +64,26 @@ Added import for `Material Icons` in `src/index.html`, eg.
 </head>
 ```
 
+## Adding new components
 
+Create component files, eg.
+
+* app/product-alerts/product-alerts.component.css
+* app/product-alerts/product-alerts.component.html
+* app/product-alerts/product-alerts.component.ts
+
+
+Add new component to `app.module.ts`, eg.
+
+```typescript
+import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
+
+@NgModule({
+  declarations: [
+    ...
+    ProductAlertsComponent
+  ],
+```
+
+*Warning -* The application will fail to display the home page if any of the plumbing 
+is done incorrectly.
