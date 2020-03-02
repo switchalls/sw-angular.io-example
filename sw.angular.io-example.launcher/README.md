@@ -1,7 +1,11 @@
 # angular.io tutorial (launcher)
 
 Simple [springboot](https://spring.io/projects/spring-boot) application for
-launching web apps
+launching webapps
 
-Approach taken from
-[dzone.com](https://dzone.com/articles/building-a-web-app-using-spring-boot-angular-6-and)
+Maven project / POM setup based on `dzone.com`
+[article](https://dzone.com/articles/building-a-web-app-using-spring-boot-angular-6-and)
+
+[frontend-maven-plugin](https://github.com/eirslett/frontend-maven-plugin) configuration based on
+[frakton.com](https://frakton.com/utilizing-maven-front-end-plugin-for-angular-spring-boot/)
+
