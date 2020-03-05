@@ -35,6 +35,16 @@ Date:   Fri Feb 28 09:47:04 2020 +0000
     Step 3. List products
 ```
 
+## Extra reading
+
+* [Internationalisation](https://angular.io/guide/i18n)
+
+* [Material components](https://material.angular.io/components/)
+
+* [Angular vs React vs Vue](https://www.codeinwp.com/blog/angular-vs-vue-vs-react/)
+
+* [Pros & cons](https://medium.com/@TechMagic/reactjs-vs-angular5-vs-vue-js-what-to-choose-in-2018-b91e028fa91d)
+
 ## Lessons learnt (so far)
 
 ### Always start with a new `np-app` project
