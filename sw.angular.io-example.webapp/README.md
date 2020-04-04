@@ -20,7 +20,7 @@ New projects should *always* be created using `ng new`
 Applications can run using the `ng serve`, eg.
 
 ```bash
-$ cd sw.angular.io-example.war/src/main/web
+$ cd sw.angular.io-example.webapp/src/main/web
 $ ng serve
 
 chunk {main} main.js, main.js.map (main) 34 kB [initial] [rendered]
@@ -46,7 +46,7 @@ $ brew install angular-cli
 Create a *new* angular project, eg.
 
 ```bash
-$ cd sw.angular.io-example.war/src/main
+$ cd sw.angular.io-example.webapp/src/main
 $ ng new -skip-git np-app
 ? Would you like to add Angular routing? No
 ? Which stylesheet format would you like to use? CSS

@@ -12,7 +12,7 @@ To execute:
 $ java -jar sw.angular.io-example.launcher/target/sw-angular.io-example-launcher-1.0.0-SNAPSHOT.war
 ```
 
-See `webapp` [overview](sw.angular.io-example.war/README.md)
+See `webapp` [overview](sw.angular.io-example.webapp/README.md)
 
 See `launcher` [overview](sw.angular.io-example.launcher/README.md)
 
@@ -97,12 +97,12 @@ The build (Mac OS X 10.15.3) failed with
 [ERROR] gyp: No Xcode or CLT version detected!
 [ERROR] gyp ERR! configure error
 [ERROR] gyp ERR! stack Error: `gyp` failed with exit code: 1
-[ERROR] gyp ERR! stack     at ChildProcess.onCpExit (/Users/stewartw/Desktop/My Stuff/sw-angular.io-example/sw.angular.io-example.war/target/node/node_modules/npm/node_modules/node-gyp/lib/configure.js:351:16)
+[ERROR] gyp ERR! stack     at ChildProcess.onCpExit (/Users/stewartw/Desktop/My Stuff/sw-angular.io-example/sw.angular.io-example.webapp/target/node/node_modules/npm/node_modules/node-gyp/lib/configure.js:351:16)
 [ERROR] gyp ERR! stack     at ChildProcess.emit (events.js:321:20)
 [ERROR] gyp ERR! stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:275:12)
 [ERROR] gyp ERR! System Darwin 19.3.0
-[ERROR] gyp ERR! command "/Users/stewartw/Desktop/My Stuff/sw-angular.io-example/sw.angular.io-example.war/target/node/node" "/Users/stewartw/Desktop/My Stuff/sw-angular.io-example/sw.angular.io-example.war/target/node/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
-[ERROR] gyp ERR! cwd /Users/stewartw/Desktop/My Stuff/sw-angular.io-example/sw.angular.io-example.war/src/main/angular.io-example/node_modules/fsevents
+[ERROR] gyp ERR! command "/Users/stewartw/Desktop/My Stuff/sw-angular.io-example/sw.angular.io-example.webapp/target/node/node" "/Users/stewartw/Desktop/My Stuff/sw-angular.io-example/sw.angular.io-example.war/target/node/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
+[ERROR] gyp ERR! cwd /Users/stewartw/Desktop/My Stuff/sw-angular.io-example/sw.angular.io-example.webapp/src/main/angular.io-example/node_modules/fsevents
 [ERROR] gyp ERR! node -v v13.9.0
 [ERROR] gyp ERR! node-gyp -v v5.0.7
 [ERROR] gyp ERR! not ok

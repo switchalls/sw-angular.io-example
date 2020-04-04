@@ -21,7 +21,7 @@
 
     <modules>
         <module>sw.angular.io-example.launcher</module>
-        <module>sw.angular.io-example.war</module>
+        <module>sw.angular.io-example.webapp</module>
     </modules>
 
 </project>
